@@ -1,0 +1,19 @@
+C:\Users\alumno15\AppData\Local\Temporary Projects\demoEF\bin\Debug\demoEF.exe.config
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\Window1.baml
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\Window1.g.cs
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\App.g.cs
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\demoEF_MarkupCompile.cache
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\demoEF.g.resources
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\demoEF.Migrations.empleadoTabla.resources
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\demoEF.Properties.Resources.resources
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\demoEF.csproj.GenerateResource.Cache
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\bin\Debug\demoEF.exe.config
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\bin\Debug\demoEF.exe
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\bin\Debug\demoEF.pdb
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\bin\Debug\EntityFramework.dll
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\bin\Debug\EntityFramework.xml
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\demoEF.exe
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\demoEF.pdb
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\demoEF.csprojResolveAssemblyReference.cache
