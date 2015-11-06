@@ -10,5 +10,6 @@ namespace miBD
     public class demoEF : DbContext
     {
        public DbSet<Empleado> Empleado { get; set; }
+       public DbSet<Departamento> Departamentos { get; set; }
     }
 }
