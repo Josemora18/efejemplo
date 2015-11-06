@@ -17,17 +17,20 @@
         </Grid.RowDefinitions>
         <Label Content="Nombre" HorizontalAlignment="Left" Margin="143,59,0,0" VerticalAlignment="Top"/>
         <Label Content="Sueldo" HorizontalAlignment="Left" Margin="151,105,0,0" VerticalAlignment="Top" Grid.RowSpan="2"/>
-        <Button Content="Enviar" HorizontalAlignment="Left" Margin="201,76,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" Grid.Row="1"/>
+        <Button Content="Enviar" HorizontalAlignment="Left" Margin="201,109,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" Grid.Row="1"/>
         <TextBox x:Name="txSueldo" HorizontalAlignment="Left" Height="23" Margin="232,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
         <TextBox x:Name="txNombre" HorizontalAlignment="Left" Height="23" Margin="232,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Borrar" HorizontalAlignment="Left" Margin="369,76,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1" Click="Button_Click_3"/>
-        <Button Content="Actualizar" HorizontalAlignment="Left" Margin="35,76,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.03,0.845" Click="Button_Click_2" Grid.Row="1"/>
+        <Button Content="Borrar" HorizontalAlignment="Left" Margin="362,109,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1" Click="Button_Click_3"/>
+        <Button Content="Actualizar" HorizontalAlignment="Left" Margin="27,109,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.03,0.845" Click="Button_Click_2" Grid.Row="1"/>
         <TextBox x:Name="txtid" HorizontalAlignment="Left" Height="23" Margin="232,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.189,0.377"/>
         <Label Content="Id" HorizontalAlignment="Left" Margin="162,10,0,0" VerticalAlignment="Top"/>
-        <Button Content="Consultar por Id" HorizontalAlignment="Left" Margin="410,59,0,0" VerticalAlignment="Top" Width="160" Click="Button_Click_4"/>
+        <Button Content="Consultar por Id" HorizontalAlignment="Left" Margin="410,16,0,0" VerticalAlignment="Top" Width="160" Click="Button_Click_4"/>
         <Button Content="Consultar Todo" HorizontalAlignment="Left" Margin="652,108,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Consultar Todo" HorizontalAlignment="Left" Margin="410,0,0,124" Grid.Row="1" VerticalAlignment="Bottom" Width="160" Click="Button_Click_5"/>
+        <Button Content="Consultar Todo" HorizontalAlignment="Left" Margin="410,0,0,31" VerticalAlignment="Bottom" Width="160" Click="Button_Click_5"/>
         <DataGrid x:Name="dbgrid" HorizontalAlignment="Left" Margin="508,52,0,0" VerticalAlignment="Top" Height="77" Width="273" Grid.Row="1"/>
+        <Label Content="Nombre de Departamento: " HorizontalAlignment="Left" Margin="62,52,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Button Content="Agregar Departamento" HorizontalAlignment="Left" Margin="410,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="160" Click="Button_Click_6"/>
+        <TextBox x:Name="txtDep" HorizontalAlignment="Left" Height="23" Margin="232,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
 
     </Grid>
 </Window>

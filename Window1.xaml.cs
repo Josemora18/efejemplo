@@ -118,7 +118,23 @@ namespace demoEF
             }
             else { MessageBox.Show("Solo Numeros  #id"); }
         }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+             if (Regex.IsMatch(txtDep.Text, @"^[a-zA-Z]+$"))
+            {
+                
+                    miBD.demoEF db = new miBD.demoEF();
+                    Departamento  dep = new Departamento ();
+                    dep.nombre = txtDep.Text;
+                   
+                    db.Departamentos.Add(dep );
+                    db.SaveChanges();
+            }
+            else { MessageBox.Show("Solo Letras en #nombre de departamento"); }
+        }
+        }
     }
-}
+
 
 
