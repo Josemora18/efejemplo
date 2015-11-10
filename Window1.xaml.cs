@@ -37,6 +37,7 @@ namespace demoEF
                     Empleado emp = new Empleado();
                     emp.Nombre = txNombre.Text;
                     emp.Sueldo = int.Parse(txSueldo.Text);
+                    emp.Departamento_id  = (int)CbDepartamentos.SelectedValue;
 
                     db.Empleado.Add(emp);
                     db.SaveChanges();
@@ -121,6 +122,8 @@ namespace demoEF
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
+            //dar de alta en los departamentos
+
              if (Regex.IsMatch(txtDep.Text, @"^[a-zA-Z]+$"))
             {
                 
@@ -132,6 +135,21 @@ namespace demoEF
                     db.SaveChanges();
             }
             else { MessageBox.Show("Solo Letras en #nombre de departamento"); }
+        }
+
+        private void Grid_Loaded_1(object sender, RoutedEventArgs e)
+        {
+            // para que muestre los dptos en el combobox
+            miBD.demoEF db = new miBD.demoEF();
+            CbDepartamentos.ItemsSource  = db.Departamentos.ToList();
+            CbDepartamentos.DisplayMemberPath = "nombre";
+            CbDepartamentos.SelectedValuePath = "id";
+
+        }
+
+        private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        {
+
         }
         }
     }
