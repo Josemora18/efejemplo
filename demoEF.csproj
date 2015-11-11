@@ -69,6 +69,10 @@
     <Compile Include="Migrations\201511061554292_deps.Designer.cs">
       <DependentUpon>201511061554292_deps.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511111548388_correccionDeps.cs" />
+    <Compile Include="Migrations\201511111548388_correccionDeps.Designer.cs">
+      <DependentUpon>201511111548388_correccionDeps.cs</DependentUpon>
+    </Compile>
     <Compile Include="Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
@@ -99,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201511061554292_deps.resx">
       <DependentUpon>201511061554292_deps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511111548388_correccionDeps.resx">
+      <DependentUpon>201511111548388_correccionDeps.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -37,7 +37,7 @@ namespace demoEF
                     Empleado emp = new Empleado();
                     emp.Nombre = txNombre.Text;
                     emp.Sueldo = int.Parse(txSueldo.Text);
-                   
+                    emp.DepartamentoId = (int)CbDepartamentos.SelectedValue;
 
                     db.Empleado.Add(emp);
                     db.SaveChanges();

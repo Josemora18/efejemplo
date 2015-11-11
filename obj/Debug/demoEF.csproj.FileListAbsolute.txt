@@ -18,3 +18,4 @@ C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\demoEF.ex
 C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\demoEF.pdb
 C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\demoEF.csprojResolveAssemblyReference.cache
 C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\demoEF.Migrations.deps.resources
+C:\Users\alumno15\Documents\sqlJEMA2015\demoEF\demoEF\demoEF\obj\Debug\demoEF.Migrations.correccionDeps.resources
